@@ -5,10 +5,11 @@ Parameters:
   SiteBucketName:
     Type: String
     Description: Name of bucket to create to host the website
+    Default: "tomb-pipeline-static-site"
   GitHubUser:
     Type: String
     Description: GitHub User
-    Default: "stelligent"
+    Default: "tbeauvais"
   GitHubRepo:
     Type: String
     Description: GitHub Repo to pull from. Only the Name. not the URL
